@@ -1,0 +1,28 @@
+{
+  "name": "Simple-HTTP-Assignment-Start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint ./src/server.js --fix",
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeniulaPyra/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeniulaPyra/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/FeniulaPyra/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
